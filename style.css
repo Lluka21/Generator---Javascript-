@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(120, 120, 209);
+}
+
+.otp_container {
+  width: min(500px, 90%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(31, 25, 25);
+  color: #fff;
+  border-radius: 8px;
+  width: 400px;
+  height: 300px;
+  padding: 50px 50px 50px 50px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+#otpDisplay {
+  font-size: 1em;
+  background-color: #2a292e;
+  color: #ffffff;
+  letter-spacing: 10px;
+  /* text-align: center; */
+  padding: 1em 0;
+}
+
+#btn {
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(96, 96, 255);
+  border: none;
+  color: #fff;
+  font-family: monospace;
+  margin-bottom: 40px;
+}
+
+#btn:hover {
+  background-color: rgb(75, 75, 253);
+}
